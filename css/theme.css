@@ -1,0 +1,202 @@
+@charset 'utf-8';
+
+* > {
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body, html {
+	height: 100%;
+}
+
+body {
+	background: url('../img/background.png') 0 0 no-repeat;
+	background-size: cover;
+	font-size: 0;
+	overflow: hidden;
+}
+
+.tio-silvio {
+	display: inline-block;
+	width: 600px;
+	height: 100%;
+	background: url('../img/silvio.png') 0 0 no-repeat;
+	background-size: cover;
+}
+
+.main-container {
+	display: inline-block;
+	max-width: 638px;
+	width: 638px;
+	height: 100%;
+	border-right: 3px solid #FFFFFF;
+	vertical-align: bottom;
+}
+
+.question-container {
+	max-width: 675px;
+	width: 675px;
+	font-family: 'Oswald', sans-serif;
+	padding: 15px 60px; 
+	font-size: 25px;
+	color: #FFFFFF;
+	border: 2px solid #FFFFFF;
+	border-left: none;
+	position: relative;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	box-sizing: border-box;
+}
+
+.question-container bold {
+	font-weight: bold;
+}
+
+.radial-center-red {
+  /* fallback */
+  background-color: #62100C;
+  background-image: url(images/radial_bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  /* Safari 4-5, Chrome 1-9 */
+  /* Can't specify a percentage size? Laaaaaame. */
+  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#901808), to(#62100C));
+
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-radial-gradient(circle, #901808 ,#62100C );
+
+  /* Firefox 3.6+ */
+  background: -moz-radial-gradient(circle, #901808 ,#62100C);
+
+  /* IE 10 */
+  background: -ms-radial-gradient(circle, #901808 ,#62100C);
+
+  /* Opera couldn't do radial gradients, then at some point they started supporting the -webkit- syntax, how it kinda does but it's kinda broken (doesn't do sizing) */
+}
+
+.resposta {
+	max-width: 570px;
+	font-family: 'Oswald', sans-serif;
+	padding: 15px 62px 15px 84px;
+	font-size: 22px;
+	border: 2px solid #FFFFFF;
+	border-radius: 12px;
+	margin-bottom: 10px;
+	margin-left: 30px;
+	margin-right: 28px;
+	color: #FFFFFF;
+	cursor: pointer;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.resposta bold {
+	font-weight: bold;
+}
+
+.resposta:last-child {
+	margin-bottom: 10px;
+}
+.header-container {
+	padding-top: 15px;
+	margin-bottom: 35px;
+}
+.header-container > img {
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+@keyframes blink-wrong {
+  50% {
+    background: #FF0000;
+  }
+}
+
+@-webkit-keyframes blink-wrong {
+  50% {
+    background: #FF0000;
+  }
+}
+
+.respostas-container .wrong-question {
+  animation: blink-wrong 0.7s step-start 0s infinite;
+  -webkit-animation: blink-wrong 0.7s step-start 0s infinite;
+}
+
+@keyframes blink-right {
+  50% {
+    background: #00FF00;
+  }
+}
+
+@-webkit-keyframes blink-right {
+  50% {
+    background: #00FF00;
+  }
+}
+
+.respostas-container .right-question {
+	animation: blink-right 0.7s step-start 0s infinite;
+  -webkit-animation: blink-right 0.7s step-start 0s infinite;	
+}
+
+.respostas-container .resposta.right {
+	background: #00FF00;
+}
+.respostas-container .resposta.error {
+	background: #FF0000;
+}
+
+.respostas-container .resposta.disabled {
+	background: #565656;
+}
+
+.btn {
+	cursor: pointer;
+}
+
+.buttons-container {
+	padding-left: 15px;
+}
+
+.respostas-container .resposta .indice {
+	display: block;
+	background-color: #FFFFFF;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 27px;
+	border-radius: 15px;
+	top: 15px;
+}
+
+.respostas-container .resposta .indice:before {
+	color: #000000;
+	position: absolute;
+	margin-left: 7px;
+	font-weight: bold;
+	font-family: 'Oswald', sans-serif;
+}
+
+.respostas-container .resposta:nth-child(1) .indice:before {
+	content: "A";
+}
+.respostas-container .resposta:nth-child(2) .indice:before {
+	content: "B";
+}
+.respostas-container .resposta:nth-child(3) .indice:before {
+	content: "C";
+}
+.respostas-container .resposta:nth-child(4) .indice:before {
+	content: "D";
+}
+
+/* corrigindo posição da questão 1 */
+.respostas-container[data-id="1"] .resposta:nth-child(1) .indice {
+	top: 30px;
+}

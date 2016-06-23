@@ -1,0 +1,13 @@
+<div id="changeable-container">
+	<div class="question-container radial-center-red" >
+		{{{pergunta}}}
+	</div>
+	<ol type="a" class="respostas-container" data-id="{{id}}">
+		{{#each respostas}}
+			<li class="resposta radial-center-red" data-right="{{isRight}}" data-id="{{id}}">
+				<span class="indice"></span>
+			{{{content}}}
+			</li>
+		{{/each}}
+	</ol>
+</div>
