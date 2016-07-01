@@ -102,7 +102,7 @@ body {
 }
 .header-container {
 	padding-top: 15px;
-	margin-bottom: 35px;
+	
 }
 .header-container > img {
 	display: block;
@@ -199,4 +199,83 @@ body {
 /* corrigindo posição da questão 1 */
 .respostas-container[data-id="1"] .resposta:nth-child(1) .indice {
 	top: 30px;
+}
+
+.plateia-modal .modal-dialog .modal-content,
+.plateia-modal .modal-dialog {
+	width: 820px;
+}
+
+.rabbit-modal .modal-dialog .modal-content,
+.rabbit-modal .modal-dialog {
+	width: 640px;
+}
+
+.plateia-modal .modal-dialog {
+	margin-top: 75px;
+}
+
+.universitarios-modal .modal-content {
+	padding-top: 75px;
+	background-color: transparent;
+	box-shadow: none !important;
+	border: none;
+	width: 750px;
+	margin: 0 auto;
+}
+
+.modal-backdrop.fade {
+	opacity: 1 !important;
+	background-color: #101010 !important;
+}
+
+.coluna {
+	display: inline-block;
+}
+
+.coluna:first-child {
+	margin-right: 45px;
+}
+
+.abertura-modal .modal-dialog,
+.milhao-modal .modal-dialog {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background: url('../img/background.png') 0 0 no-repeat;
+	background-size: cover;
+}
+
+
+.abertura-modal .modal-dialog .modal-content,
+.milhao-modal .modal-dialog .modal-content {
+	background-color: transparent;
+	box-shadow: none !important;
+	border: none;
+	width: 900px;
+	height: 500px;
+	padding-top: 135px;
+	margin: 0 auto;
+}
+
+.two {
+  transform: rotateY(40deg);
+  animation: two 2s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes two {
+  0% {
+    transform: rotateY(0);
+  }
+  100% {
+    transform: rotateY(180deg);
+  }
+}
+
+.bt-iniciar {
+	width: 300px;
+    height: 120px;
+    margin-left: 320px;
+    cursor: pointer;
 }

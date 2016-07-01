@@ -1,26 +1,26 @@
 [{
 	"id": 1,
-	"pergunta": "Quando você usa o banheiro para <br/> fazer o número 1 ou 2, o que você<br/> <bold>DEVE</bold> fazer?",
+	"pergunta": "O que você deve fazer depois que utiliza os utensílios da cozinha:",
 	"respostas": [{
 		"isRight": false,
-		"content": "Compartilhar sua obra<br/> com seu colega",
+		"content": "Deixar para a Márcia e Dona Maria lavar.",
 		"id":1
 	}, {
 		"isRight": false,
-		"content": "Colocar o veú na noiva",
+		"content": "Deixar sujo para criar uma colônia de fungos e testar novos medicamentos.",
 		"id":2
 	}, {
 		"isRight": false,
-		"content": "Não lavar as Mãos",
+		"content": "Jogar fora",
 		"id":3
 	}, {
 		"isRight": true,
-		"content": "Dar a descarga e lavar as mãos",
+		"content": "Lava a sua louça.",
 		"id":4
 	}]
 },{
 	"id": 2,
-	"pergunta": "Quando você traz um pão fresco e esquece de trazer algo para passar. o que você <bold>não</bold> deve fazer:",
+	"pergunta": "Quando você traz um pão fresco e esquece de trazer algo para passar. O que você <bold>não</bold> deve fazer:",
 	"respostas": [{
 		"isRight": false,
 		"content": "comer pão puro",
@@ -31,11 +31,371 @@
 		"id":2
 	}, {
 		"isRight": false,
-		"content": "usar margarina de alguém",
+		"content": "usar a margarina de alguém sem pedir",
 		"id":3
 	}, {
 		"isRight": true,
 		"content": "pedir emprestado",
+		"id":4
+	}]
+},{
+	"id": 3,
+	"pergunta": "Qual é o ramal da Katherine?",
+	"respostas": [{
+		"isRight": false,
+		"content": "222",
+		"id":1
+	}, {
+		"isRight": true,
+		"content": "211",
+		"id":2
+	}, {
+		"isRight": false,
+		"content": "190",
+		"id":3
+	}, {
+		"isRight": false,
+		"content": "666",
+		"id":4
+	}]
+},{
+	"id": 4,
+	"pergunta": "Em relação ao uso do ar-condicionado, o você deve fazer quando chega na sua sala:",
+	"respostas": [{
+		"isRight": false,
+		"content": "Deixar a porta da sala aberta para ventilar",
+		"id":1
+	}, {
+		"isRight": true,
+		"content": "Ajustar a temperatura conforme a NR17",
+		"id":2
+	}, {
+		"isRight": false,
+		"content": "Colocar a temperatura em -5º para gelar uma coca-cola",
+		"id":3
+	}, {
+		"isRight": false,
+		"content": "Deixar tudo fechado para ficar um cheiro de chulé de teta no ambiente",
+		"id":4
+	}]
+},{
+	"id": 5,
+	"pergunta": "O Que acontece quando o Priori conta uma piada?",
+	"respostas": [{
+		"isRight": true,
+		"content": "Todos choram",
+		"id":1
+	}, {
+		"isRight": false,
+		"content": "Todos riem",
+		"id":2
+	}, {
+		"isRight": false,
+		"content": "Acontece um efeito borboleta e 2 chineses e 1 lontra do outro lado do mundo morrem",
+		"id":3
+	}, {
+		"isRight": false,
+		"content": "Todos entendem",
+		"id":4
+    }]
+},{
+	"id": 6,
+	"pergunta": "Qual é o nome completo do Agnight? ",
+	"respostas": [{
+		"isRight": false,
+		"content": "Agnaldo Viera de Lima",
+		"id":1
+	}, {
+		"isRight": false,
+		"content": "Agnaldo Viana de Lhama",
+		"id":2
+	}, {
+		"isRight": true,
+		"content": "Agnaldo Viana de Lima",
+		"id":3
+	}, {
+		"isRight": false,
+		"content": "Agnaldo de Lima Vieira",
+		"id":4
+	}]
+},{
+	"id": 7,
+	"pergunta": "Quantos salões de beleza têm no kobrasol?",
+	"respostas": [{
+		"isRight": true,
+		"content": "Não sei",
+		"id":1
+	}, {
+		"isRight": false,
+		"content": "Não quero saber",
+		"id":2
+	}, {
+		"isRight": false,
+		"content": "20 a cada esquina",
+		"id":3
+	}, {
+		"isRight": false,
+		"content": "698",
+		"id":4
+	}]
+},{
+	"id": 8,
+	"pergunta": "Porque a plantinha não foi atendida na emergência?",
+	"respostas": [{
+		"isRight": false,
+		"content": "Porque era venenosa",
+		"id":1
+	}, {
+		"isRight": false,
+		"content": "Porque era muito grande",
+		"id":2
+	}, {
+		"isRight": false,
+		"content": "Porque era carnívora",
+		"id":3
+	}, {
+		"isRight": true,
+		"content": "Porque só tinha médico de plantão",
+		"id":4
+	}]
+},{
+	"id": 9,
+	"pergunta": "Qual personagem de desenho animado sempre aparece na laboral de sexta-feira?",
+	"respostas": [{
+		"isRight": false,
+		"content": "Patrick",
+		"id":1
+	}, {
+		"isRight": false,
+		"content": "Senhor Sirigueijo",
+		"id":2
+	}, {
+		"isRight": false,
+		"content": "Lula-molusco",
+		"id":3
+	}, {
+		"isRight": true,
+		"content": "Bob Esponja",
+		"id":4
+	}]
+},{
+	"id": 10,
+	"pergunta": "O que significa Hakuna Matata?",
+	"respostas": [{
+		"isRight": false,
+		"content": "É lindo dizer",
+		"id":1
+	}, {
+		"isRight": true,
+		"content": "Sem problemas",
+		"id":2
+	}, {
+		"isRight": false,
+		"content": "Pirão com batata",
+		"id":3
+	}, {
+		"isRight": true,
+		"content": "Isso é viver",
+		"id":4
+	}]
+},{
+	"id": 11,
+	"pergunta": "Qual a capital do Zimbabwe?",
+	"respostas": [{
+		"isRight": true,
+		"content": "Harare",
+		"id":1
+	}, {
+		"isRight": false,
+		"content": "Rajare",
+		"id":2
+	}, {
+		"isRight": false,
+		"content": "Volare ô ô ô",
+		"id":3
+	}, {
+		"isRight": false,
+		"content": "Só Deus sabe",
+		"id":4
+	}]
+},{
+	"id": 12,
+	"pergunta": "Qual é o nome do Doutor Cientista do filme De Volta para o futuro?",
+	"respostas": [{
+		"isRight": false,
+		"content": "Marty McFly",
+		"id":1
+	}, {
+		"isRight": false,
+		"content": "Doutor Marrom",
+		"id":2
+	}, {
+		"isRight": false,
+		"content": "Martin Mc Donalds",
+		"id":3
+	}, {
+		"isRight": true,
+		"content": "Doutor Brown",
+		"id":4
+	}]
+},{
+	"id": 13,
+	"pergunta": "Qual o leite da Bruna marquezine?",
+	"respostas": [{
+		"isRight": false,
+		"content": "PI-RA-NA-JU-BA",
+		"id":1
+	}, {
+		"isRight": false,
+		"content": "PI-RI-RI-TU-BA",
+		"id":2
+	}, {
+		"isRight": true,
+		"content": "PI-RA-CAN-JU-BA",
+		"id":3
+	}, {
+		"isRight": false,
+		"content": "PI-RA-NA-TU-BA",
+		"id":4
+	}]
+},{
+	"id": 14,
+	"pergunta": "QUANTO TEMPO DUROU A GUERRA DOS 100 ANOS?",
+	"respostas": [{
+		"isRight": true,
+		"content": "116 anos",
+		"id":1
+	}, {
+		"isRight": false,
+		"content": "120 anos",
+		"id":2
+	}, {
+		"isRight": false,
+		"content": "100 anos",
+		"id":3
+	}, {
+		"isRight": false,
+		"content": "150 anos",
+		"id":4
+	}]
+},{
+	"id": 15,
+	"pergunta": "Qual cantor cantou no aniversário do Batman?",
+	"respostas": [{
+		"isRight": false,
+		"content": "Pink",
+		"id":1
+	}, {
+		"isRight": false,
+		"content": "Johnny Little Johnny",
+		"id":2
+	}, {
+		"isRight": true,
+		"content": "MC Coringa",
+		"id":3
+	}, {
+		"isRight": false,
+		"content": "Wanessa Camargo",
+		"id":4
+	}]
+},{
+	"id": 16,
+	"pergunta": "Se no oleoduto passa oleo, no gasoduto passa gás, o que passa no viaduto?",
+	"respostas": [{
+		"isRight": false,
+		"content": "Oleo e gás",
+		"id":1
+	}, {
+		"isRight": false,
+		"content": "Alguem passando oleo em outro",
+		"id":2
+	}, {
+		"isRight": false,
+		"content": "Alguem que soltou um gás e culpou o outro que passava oleo",
+		"id":3
+	}, {
+		"isRight": true,
+		"content": "Carros",
+		"id":4
+	}]
+},{
+	"id": 17,
+	"pergunta": "Em que país é fabricado o chapéu Panamá?",
+	"respostas": [{
+		"isRight": false,
+		"content": "Brasil",
+		"id":1
+	}, {
+		"isRight": false,
+		"content": "Panamá",
+		"id":2
+	}, {
+		"isRight": true,
+		"content": "Equador",
+		"id":3
+	}, {
+		"isRight": false,
+		"content": "Chile",
+		"id":4
+	}]
+},{
+	"id": 18,
+	"pergunta": "O que é via láctea?",
+	"respostas": [{
+		"isRight": false,
+		"content": "civilização antiga",
+		"id":1
+	}, {
+		"isRight": false,
+		"content": "marca de carro",
+		"id":2
+	}, {
+		"isRight": true,
+		"content": "galáxia",
+		"id":3
+	}, {
+		"isRight": false,
+		"content": "Marca de leite",
+		"id":4
+	}]
+},{
+	"id": 19,
+	"pergunta": "Porque de atiramos arroz nos noivos?",
+	"respostas": [{
+		"isRight": false,
+		"content": "Para deixar o noivo mais soltinho",
+		"id":1
+	}, {
+		"isRight": true,
+		"content": "Porque é uma tradição da china antiga, símbolo de prosperidade, felicidade e abundância",
+		"id":2
+	}, {
+		"isRight": false,
+		"content": "Para servir de aperitivo aos convidados",
+		"id":3
+	}, {
+		"isRight": false,
+		"content": "Porque é uma forma de espantar o mau olhado",
+		"id":4
+	}]
+},{
+	"id": 20,
+	"pergunta": "Qual o significado da palavra Saiçú (TUPI-GUARANI):",
+	"respostas": [{
+		"isRight": false,
+		"content": "Salsi fu-fu",
+		"id":1
+	}, {
+		"isRight": true,
+		"content": "amar",
+		"id":2
+	}, {
+		"isRight": false,
+		"content": "Saí-suado",
+		"id":3
+	}, {
+		"isRight": false,
+		"content": "Açaí",
 		"id":4
 	}]
 }]
